@@ -1,1 +1,1 @@
-java -noverify -javaagent:"./burp-loader-x-Ai.jar" -Xmx2048m -jar "./burpsuite_pro_v2021.8.2.jar"
+java -noverify -javaagent:"./burp-loader-x-Ai.jar" -Xmx8192m -jar ./burpsuite_pro_v*.jar
