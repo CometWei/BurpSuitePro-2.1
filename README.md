@@ -35,12 +35,13 @@ https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&typ
 *一、初次使用*
 
   ```
-  0x00 - 配置好java环境，Java9-Java14
+  0x00 - 配置好java环境，Java9-Java16
+  Oracle 官網下載（可能需要註冊會員）
   0x01 - 启动 burp-keygen-scz.jar，用来破解license
-  Powershell：java -jar "C:\Users\User\Desktop\burp-keygen-scz.jar"
+  執行 kaygen.bat 
 
   0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.3.jar
-  Powershell：java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.3.jar"
+  執行 start.bat
 
   0x03 - BurpSuite界面取消协助，同意协议
   0x04 - 随意修改 burp-keygen-scz 的 License Text
