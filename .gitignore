@@ -3,3 +3,4 @@
 # Pass BurpSuite main programs
 
 burpsuite_*.jar
+jython*
